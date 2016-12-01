@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Crawler for your leetcode accepted solutions",
   "main": "index.js",
+  "bin": {
+    "lc-spider": "./bin/leetcode_spider"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,8 +26,10 @@
   },
   "homepage": "https://github.com/Ma63d/leetcode-spicder#readme",
   "dependencies": {
+    "chalk": "^1.1.3",
     "cheerio": "^0.22.0",
     "co": "^4.6.0",
-    "request": "^2.79.0"
+    "request": "^2.79.0",
+    "yargs": "^6.4.0"
   }
 }
