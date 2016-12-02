@@ -14,7 +14,6 @@
     "url": "git+https://github.com/Ma63d/leetcode-spicder.git"
   },
   "keywords": [
-    "node",
     "leetcode",
     "downloader",
     "crawler"
@@ -30,6 +29,8 @@
     "cheerio": "^0.22.0",
     "co": "^4.6.0",
     "request": "^2.79.0",
+    "thenify": "^3.2.1",
+    "thenify-all": "^1.6.0",
     "yargs": "^6.4.0"
   }
 }
