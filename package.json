@@ -1,6 +1,6 @@
 {
   "name": "leetcode-spider",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Crawler for your leetcode accepted solutions",
   "main": "./lib/entry.js",
   "bin": {
