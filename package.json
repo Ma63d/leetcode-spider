@@ -1,6 +1,6 @@
 {
   "name": "leetcode-spider",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Crawler for your leetcode accepted solutions",
   "main": "./lib/entry.js",
   "bin": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ma63d/leetcode-spicder.git"
+    "url": "git+https://github.com/Ma63d/leetcode-spider.git"
   },
   "keywords": [
     "leetcode",
@@ -22,9 +22,9 @@
   "author": "Chuck Liu (http://chuckliu.me/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ma63d/leetcode-spicder/issues"
+    "url": "https://github.com/Ma63d/leetcode-spider/issues"
   },
-  "homepage": "https://github.com/Ma63d/leetcode-spicder#readme",
+  "homepage": "https://github.com/Ma63d/leetcode-spider#readme",
   "dependencies": {
     "assert": "^1.4.1",
     "chalk": "^1.1.3",
