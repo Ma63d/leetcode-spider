@@ -20,7 +20,6 @@ npm i leetcode-spider
 
 请事先建立好如下json文件(以命名为config.json为例):
 
-You need to write a json file beforehand like this:
 
 ```
 {
@@ -32,11 +31,8 @@ You need to write a json file beforehand like this:
 
 `username`和`password`对应你的的leetcode账户.
 
-The fields `username` and `password` are your leetcode account, both necessary.
 
 `language`对应于你用来解leetcode的编程语言,该项为一个数组,即使只有一种语言.
-
-The field `languages` is necessary(must be an array).Only the accepted solutions wrote in those languages will be downloaded.
 
 ##运行 Execution
 
@@ -73,8 +69,6 @@ lc-spider -c xxx.json
 
 使用指定的配置文件运行lc-spider.默认使用的是config.json.
 
-Use specified config file to download your leetcode accepted solutions.We use 'config.json' by default.
-
 ###-number or -n
 ```
 lc-spider -n 2-15 3 78-101 
@@ -82,7 +76,6 @@ lc-spider -n 2-15 3 78-101
 
 只爬取你指定的题目,可以使用连字符(如15-100),此处指定的是需要爬取的题号.程序会检查哪些题目你AC了,因此你可以放心的填写.比如你a了200-300之间的某几道题,但是不想一个个的指定出来,那你就大胆的写上200-300,程序会查找200-300范围内你AC的源码,并爬取下来.
 
-Fetch only specified question number of problems.
 
 
 
