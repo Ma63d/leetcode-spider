@@ -38,7 +38,6 @@ npm i leetcode-spider
 
 ```
 lc-spider // 默认使用config.json为配置文件运行爬虫
-//或者lc-spider -c your_config.json
 ```
 **程序会记录上一次爬取了哪些题目,之前爬取过的题目再次运行的时候不会爬取,除非你通过-n选项手动指定.**
 
@@ -55,8 +54,7 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 
 ##帮助 Help
 ```
-lc-spider -h 
-//lc-spider -help
+lc-spider -h
 ```
 
 ##选项
