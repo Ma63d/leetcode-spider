@@ -1,7 +1,7 @@
 {
   "name": "leetcode-spider",
   "version": "0.2.6",
-  "description": "Crawler for your leetcode accepted solutions",
+  "description": "Crawler for your leetcode accepted solutions.Multi-language supported.Auto generate README.md .",
   "main": "./lib/entry.js",
   "bin": {
     "lc-spider": "./bin/leetcode_spider"
