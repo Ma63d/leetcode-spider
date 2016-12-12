@@ -32,6 +32,7 @@
     "co": "4.6.0",
     "co-parallel": "^1.0.0",
     "debug": "^2.3.3",
+    "log4js": "^1.0.1",
     "request": "2.79.0",
     "thenify": "^3.2.1",
     "thenify-all": "^1.6.0",
