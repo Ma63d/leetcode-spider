@@ -5,7 +5,7 @@
 
 **Insipred by bony's python [leetcode downloader](https://github.com/bonfy/leetcode).**
 
-如果你也想把你在[leetcode](https://leetcode.com/)上提交且Accepted的解题代码爬下来,那么本工具就是为此需求而生!爬下来的代码可以放在github上管理和开源出来,可以作为个人展示,更可以借助[leetcode-displayer](https://github.com/Ma63d/leetcode-displayer)将代码通过一个单页应用完美展现,几条命令就可以呈现一个leetcode源码博客,交流和展示搞起来!
+如果你也想把你在[leetcode](https://leetcode.com/)上提交且Accepted的解题代码爬下来,那么本工具就是为此需求而生!爬下来的代码可以放在github上管理和开源出来,可以作为个人展示,更可以借助[leetcode-viewer](https://github.com/Ma63d/leetcode-viewer)将代码通过一个单页应用完美展现,几条命令就可以呈现一个leetcode源码博客,交流和展示搞起来!
 
 
 **需要Node 4.0及以上版本!**
