@@ -13,8 +13,9 @@
 ##安装 Installation
 
 ```
-npm i leetcode-spider
+npm i leetcode-spider -g 
 ```
+
 
 ##使用 Usage
 
@@ -50,12 +51,15 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 
 程序此时会自动检查你跟上一次爬取结果相比多写了哪些题,然后把这些新增的代码爬取下来,不会重复的去爬取,你也不用手工指定你今天AC了哪些题.
 
-永远只用一行命令:`lc-spider`.
+永远只用一行命令:`lc-spider`.(除非你想要再去爬以前爬过的题,比如你改进了修改了原先AC的代码,想把新代码爬下来,或者你新增了另一种语言的解法, 那么这种时候可以用-n选项指定具体要爬取的题目,请参考[选项](https://github.com/Ma63d/leetcode-spider#选项)章节的具体内容.)
 
 此外源码对应的leetcode的题目,也会爬取下来,放在代码目录,markdown格式.
 
 爬取完成后会自动生成README.md文件,当你把爬下来的代码放在github上时,README.md起一个介绍和导航的作用.
 
+如果你运行lc-spider却显示无法找到命令,首先请确认一下你在npm安装lc-spider的时候是否是全局安装(也就是有没有那个`-g`),如果你是全局安装的,那就是你的npm的环境变量配置得不对了,请参考百度的fis团队写的[这篇文章](!https://github.com/fex-team/fis/issues/565),方便不熟悉npm的同学解决自己遇到的问题.
+
+如果还有问题,请联系[我](https://github.com/Ma63d)!或者开issue,只要不在睡觉,基本都可以为你解决问题~
 
 ##帮助 Help
 ```
