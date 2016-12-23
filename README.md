@@ -10,14 +10,14 @@
 
 **需要Node 4.0及以上版本!**
 
-##安装 Installation
+## 安装 Installation
 
 ```
 npm i leetcode-spider -g 
 ```
 
 
-##使用 Usage
+## 使用 Usage
 
 请事先建立好如下json文件(以命名为config.json为例):
 
@@ -35,7 +35,7 @@ npm i leetcode-spider -g
 
 `language`对应于你用来解leetcode的编程语言,该项为一个数组,即使只有一种语言.
 
-##运行 Execution
+## 运行 Execution
 
 ```
 lc-spider // 默认使用config.json为配置文件运行爬虫
@@ -61,21 +61,21 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 
 如果还有问题,请联系[我](https://github.com/Ma63d)!或者开issue,只要不在睡觉,基本都可以为你解决问题~
 
-##帮助 Help
+## 帮助 Help
 ```
 lc-spider -h
 ```
 
-##选项
+## 选项
 
-###-config or -c
+### -config or -c
 ```
 lc-spider -c xxx.json
 ```
 
 使用指定的配置文件运行lc-spider.默认使用的是config.json.
 
-###-number or -n
+### -number or -n
 ```
 lc-spider -n 2-15 3 78-101
 ```
