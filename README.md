@@ -55,7 +55,7 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 
 此外源码对应的leetcode的题目,也会爬取下来,放在代码目录,markdown格式.
 
-爬取完成后会自动生成README.md文件,当你把爬下来的代码放在github上时,README.md起一个介绍和导航的作用.
+爬取完成后会自动生成README.md文件,当你把爬下来的代码放在github上时,README.md起一个介绍和导航的作用.另外，有的同学的config.json文件是直接放在当前的代码存放目录的，那你在把这个目录上传到github上之前，请记得写`.gitignore`文件，在里面忽略掉你的config.json文件！不然你的用户名和密码也传到github上公开给大家了（虽然leetcode账户屁用没有）。
 
 如果你运行lc-spider却显示无法找到命令,首先请确认一下你在npm安装lc-spider的时候是否是全局安装(也就是有没有那个`-g`),如果你是全局安装的,那就是你的npm的环境变量配置得不对了,请参考百度的fis团队写的[这篇文章](!https://github.com/fex-team/fis/issues/565),方便不熟悉npm的同学解决自己遇到的问题.
 
