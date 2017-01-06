@@ -1,0 +1,10 @@
+node_modules
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.lock-wscript
+CVS
+npm-debug.log
+.idea

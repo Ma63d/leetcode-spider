@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- 6
+deploy:
+  provider: npm
+  email: liucan@ebupt.com
+  on:
+    tags: true
+  api_key:
+    secure: HeyKfQkSd+1b8lQZ5VaufF6tn6b7oF0jb2BZqzQU082cJ7mAX0THWUvFd5mJtGc2+CraLP/PaoKbnD42zEeTRwO+H+Rvg6krubI3yWdxBumNJTZcwYCbHRiXItynA9OMsI3aoo7clnWsYmqh0zSEgAXkA7SgQNwaxE/1zaoni21NubMNUN2fPbZtxwlRtJZQBsjOoNop3q7bPCY8Mnm/IjpXnGhrrpINbZoMfl5oa+z4pWugdmW4Ie5qr4Yenv3U9Miggwsez06rC5fKkkdWqnHKQ7HOsl13nzv9UP2BIPY+3CQvilwvYcApnLXCBgVGct2iOwWIsPVma9acWvAxMm6ma0YGaBYuQKuqQPFm5wa7kzH0HNvWQposmTnw84G39k9Opba+IItfjl56zdqbPSFcpcpYTGkd3G+7yT+brs1kFR6/R6djUXSohQxndlRpgZdbwwpFFiUF4BFzSDdTGy98yuUH/wjr++Cad9ZwMFWdq0Q0ch3C87mzxI84anY8wAd94ta0TZ2N6NXR2f0XirUrfrx1Q29lj7coWoM6JtKrMo/tKSQ0chh3ZAM+UK68JqYNxXIeDtP8Lk2rp9OjZ+/oDdBobG/SOmdEfODUL8nI44Q6dX/2XDshy8ojQ8ApetCxzLui3QxdnroF5IKCN9sXW8IgWJD0iGvU6SsYupc=
