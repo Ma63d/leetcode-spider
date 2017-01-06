@@ -1,6 +1,7 @@
 language: node_js
 node_js:
 - 6
+script: true
 deploy:
   provider: npm
   email: liucan@ebupt.com
