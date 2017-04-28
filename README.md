@@ -34,6 +34,18 @@ npm i leetcode-spider -g
 
 
 `language`对应于你用来解leetcode的编程语言,该项为一个数组,即使只有一种语言.
+目前`language`字段支持填写所有leetcode的编程语言:
+- `c++`(别填`cpp`)
+- `c`
+- `java`
+- `javascript` (别填`js`)
+- `python`
+- `c#` (别填csharp)
+- `ruby`
+- `swift`
+- `go`
+
+
 
 ## 运行 Execution
 
