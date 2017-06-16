@@ -2,9 +2,6 @@
 
 使用 JS 编写的 leetcode 解题源码爬虫.爬取你自己的 leetcode 解题源码.
 
-
-**Insipred by bony's python [leetcode downloader](https://github.com/bonfy/leetcode).**
-
 如果你也想把你在 [leetcode](https://leetcode.com/) 上提交且 accepted 的解题代码爬下来,那么本工具就是为此需求而生!爬下来的代码可以放在 github 上管理和开源出来,可以作为个人展示,更可以借助 [leetcode-viewer](https://github.com/Ma63d/leetcode-viewer) 将代码通过一个单页应用完美展现,几条命令就可以呈现一个 leetcode 源码博客,交流和展示搞起来!
 
 
