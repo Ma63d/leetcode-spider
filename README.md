@@ -8,8 +8,8 @@
 
 - 支持使用模板语法来配置你自己的 README.md 模板了！
 - 新增部分配置项
-- 优化 README.md 输出
-    - ![](img/example.png)
+- 优化 README.md 输出:
+  ![](img/example.png)
 - 优化网络错误处理机制
  
 
