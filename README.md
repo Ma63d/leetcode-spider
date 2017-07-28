@@ -31,9 +31,9 @@ npm i leetcode-spider -g
 {
 	"username" : "hello@gmail.com",
 	"password" : "xxxxxxxxx",
-	"language": ["java","c++","c"]
+	"language": ["java","c++","c"],
 	"outputDir": "./solutions", (可选字段)
-    "template": "./README.tpl" (可选字段)
+	"template": "./README.tpl" (可选字段)
 }
 ```
 
