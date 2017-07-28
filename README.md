@@ -53,7 +53,7 @@ npm i leetcode-spider -g
     - `go`
 
 - `outputDir` **选填**，表示你希望存放源码文件的目录，默认`"./solutions"`
-- `template` **选填**，表示你自己定义的 README.tpl 目录，默认 "./README.tpl"
+- `template` **选填**，表示你自己定义的 README.tpl 路径，默认 "./README.tpl"
 
 
 ## 运行 Execution
@@ -83,6 +83,11 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 如果还有问题,请联系[我](https://github.com/Ma63d)!或者开 issue ,只要不在睡觉,基本都可以为你解决问题.
 
 ## 模板功能
+
+嫌默认生成自带的 README.md 不好看？嫌我写的文案不够好？ 
+没关系，现在你可以自定义你的 README.md 模板，使用 [mustache](https://github.com/janl/mustache.js) 语法（就是 vue 用的那一套），自己书写你的 README.md 模板： 
+
+leetcode-spider 第一次运行之后会在你运行命令的目录下生成 [README.tpl](https://github.com/Ma63d/leetcode-spider/blob/master/lib/README.tpl) 文件，如果你对默认生成的 README.md 文件不满意，那你自行修改这个 README.tpl 模板文件即可。程序会在下次运行时使用这个模板文件来生成  README.md .
 
 
 
