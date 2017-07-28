@@ -4,7 +4,7 @@ node_js:
 script: true
 deploy:
   provider: npm
-  email: liucan@ebupt.com
+  email: chuck7liu@gmail.com
   on:
     tags: true
   api_key:

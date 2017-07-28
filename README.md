@@ -4,6 +4,14 @@
 
 如果你也想把你在 [leetcode](https://leetcode.com/) 上提交且 accepted 的解题代码爬下来,那么本工具就是为此需求而生!爬下来的代码可以放在 github 上管理和开源出来,可以作为个人展示,更可以借助 [leetcode-viewer](https://github.com/Ma63d/leetcode-viewer) 将代码通过一个单页应用完美展现,几条命令就可以呈现一个 leetcode 源码博客,交流和展示搞起来!
 
+## 新版本来了
+
+- 支持使用模板语法来配置你自己的 README.md 模板了！
+- 新增部分配置项
+- 优化 README.md 输出
+    - ![](img/site-logo.png)
+- 优化网络错误处理机制
+ 
 
 **需要 Node 4.0 及以上版本!**
 
@@ -24,24 +32,28 @@ npm i leetcode-spider -g
 	"username" : "hello@gmail.com",
 	"password" : "xxxxxxxxx",
 	"language": ["java","c++","c"]
+	"outputDir": "./solutions", (可选字段)
+    "template": "./README.tpl" (可选字段)
 }
 ```
 
-`username` 和 `password` 对应你的的 leetcode 账户.
+- `username` 和 `password` 对应你的的 leetcode 账户.
 
 
-`language` 对应于你用来解 leetcode 的编程语言,该项为一个数组,即使只有一种语言.
+- `language` 对应于你用来解 leetcode 的编程语言,该项为一个数组,即使只有一种语言.
 目前 `language` 字段支持填写所有 leetcode 的编程语言:
-- `c++`(别填`cpp`)
-- `c`
-- `java`
-- `javascript` (别填`js`)
-- `python`
-- `c#` (别填`csharp`)
-- `ruby`
-- `swift`
-- `go`
+    - `c++`(别填`cpp`)
+    - `c`
+    - `java`
+    - `javascript` (别填`js`)
+    - `python`
+    - `c#` (别填`csharp`)
+    - `ruby`
+    - `swift`
+    - `go`
 
+- `outputDir` **选填**，表示你希望存放源码文件的目录，默认`"./solutions"`
+- `template` **选填**，表示你自己定义的 README.tpl 目录，默认 "./README.tpl"
 
 
 ## 运行 Execution
@@ -69,6 +81,10 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 如果你运行 lc-spider 却显示无法找到命令,首先请确认一下你在 npm 安装 lc-spider 的时候是否是全局安装(也就是有没有那个`-g`),如果你是全局安装的,那就是你的 npm 的环境变量配置得不对了,请参考百度的 fis 团队写的 [这篇文章](https://github.com/fex-team/fis/issues/565),方便不熟悉 npm 的同学解决自己遇到的问题.
 
 如果还有问题,请联系[我](https://github.com/Ma63d)!或者开 issue ,只要不在睡觉,基本都可以为你解决问题.
+
+## 模板功能
+
+
 
 ## 帮助 Help
 ```
