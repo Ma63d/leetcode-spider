@@ -1,3 +1,6 @@
+# 此项目已不再维护，有需要者，欢迎 fork
+苦于工作繁忙，我已经不刷题很久了，没有使用需求就难以保持爬虫逻辑紧跟 leetcode 官网更新。欢迎 fork，解决需求。
+
 # leetcode-spider [![npm package](https://img.shields.io/npm/v/leetcode-spider.svg)](https://www.npmjs.com/package/leetcode-spider)
 
 使用 JS 编写的 leetcode 解题源码爬虫.爬取你自己的 leetcode 解题源码.
@@ -79,8 +82,6 @@ lc-spider // 默认使用config.json为配置文件运行爬虫
 爬取完成后会自动生成 README.md 文件,当你把爬下来的代码放在 github 上时,README.md 起一个介绍和导航的作用.另外，有的同学的 config.json 文件是直接放在当前的代码存放目录的，那你在把这个目录上传到 github 上之前，请记得写 `.gitignore` 文件，在里面忽略掉你的 config.json 文件！不然你的用户名和密码也传到 github 上公开给大家了（虽然 leetcode 账户屁用没有）。
 
 如果你运行 lc-spider 却显示无法找到命令,首先请确认一下你在 npm 安装 lc-spider 的时候是否是全局安装(也就是有没有那个`-g`),如果你是全局安装的,那就是你的 npm 的环境变量配置得不对了,请参考百度的 fis 团队写的 [这篇文章](https://github.com/fex-team/fis/issues/565),方便不熟悉 npm 的同学解决自己遇到的问题.
-
-如果还有问题,请联系[我](https://github.com/Ma63d)!或者开 issue ,只要不在睡觉,基本都可以为你解决问题.
 
 ## 模板功能
 
